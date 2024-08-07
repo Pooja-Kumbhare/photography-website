@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    
+}
+.firstcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoimg{
+    height: 80px;
+    
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#mynavbar li a{
+    color: black;
+   
+    font-weight: 400;
+}
+ .img-cont{
+   height: 600px;
+    padding: 10px;
+   background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380");
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.8;
+ 
+ }
+ .txtent{
+    color: rgb(0, 8, 8);
+    margin-top: 15%;
+    
+ }
+ .sec-cont{
+    width: 100%;
+    padding: 30px;
+ }
+ .img-cont2{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .forth-cont{
+    width: 100%;
+    padding: 30px;
+ }
+ .moreimg{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+ .upperimg{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 5px;
+    
+ }
+ .lowerimg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 5px;
+    
+ }
+ .imgst{
+    margin-right:6px;
+ }
+ .info-cont{
+   background-color: black;
+   width: 100%;
+   color: aqua;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   opacity: 0.7;
+ }
+ /*about page  page*/
+ .img-cont2{
+   background-color: black;
+  
+   color: aqua;
+   display: flex;
+ 
+   justify-content: space-around;
+   align-items: center;
+   padding: 30px;
+  
+ }
+ .tilted-photo {
+   position: relative;
+   display: inline-block;
+   
+   transition: transform 0.3s ease-in-out;
+ }
+ .tilted-photo:hover{
+   
+      transform: rotate(-10deg);
+      transition: transform 0.3s ease-in-out;
+  
+ }
+ /*Srvice pge*/
+ .jumbocont{
+    padding: 30px;
+   background-image:url("https://i.ytimg.com/vi/HglTkx9CSIA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBDHVRTZYJLYkHpbhcYz7HatH0WhQ");
+   width: 100%;
+   height: 400px;
+   background-size:cover;
+   background-repeat: no-repeat;
+ }
